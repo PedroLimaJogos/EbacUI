@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "NaughtyAttributes.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/NaughtyAttributes.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NaughtyAttributes.Core.dll": {}
+        }
+      },
+      "NaughtyAttributes.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "NaughtyAttributes.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NaughtyAttributes.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NaughtyAttributes.Editor.dll": {}
+        }
+      },
+      "NaughtyAttributes.Test/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "NaughtyAttributes.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NaughtyAttributes.Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NaughtyAttributes.Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NaughtyAttributes.Core/1.0.0": {
+      "type": "project",
+      "path": "NaughtyAttributes.Core.csproj",
+      "msbuildProject": "NaughtyAttributes.Core.csproj"
+    },
+    "NaughtyAttributes.Editor/1.0.0": {
+      "type": "project",
+      "path": "NaughtyAttributes.Editor.csproj",
+      "msbuildProject": "NaughtyAttributes.Editor.csproj"
+    },
+    "NaughtyAttributes.Test/1.0.0": {
+      "type": "project",
+      "path": "NaughtyAttributes.Test.csproj",
+      "msbuildProject": "NaughtyAttributes.Test.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "NaughtyAttributes.Core >= 1.0.0",
+      "NaughtyAttributes.Editor >= 1.0.0",
+      "NaughtyAttributes.Test >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Home\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\ebac3D\\Ebac3D\\UI\\Assembly-CSharp-firstpass.csproj",
+      "projectName": "Assembly-CSharp-firstpass",
+      "projectPath": "E:\\ebac3D\\Ebac3D\\UI\\Assembly-CSharp-firstpass.csproj",
+      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+      "outputPath": "E:\\ebac3D\\Ebac3D\\UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\ebac3D\\Ebac3D\\UI\\NaughtyAttributes.Core.csproj": {
+              "projectPath": "E:\\ebac3D\\Ebac3D\\UI\\NaughtyAttributes.Core.csproj"
+            },
+            "E:\\ebac3D\\Ebac3D\\UI\\NaughtyAttributes.Editor.csproj": {
+              "projectPath": "E:\\ebac3D\\Ebac3D\\UI\\NaughtyAttributes.Editor.csproj"
+            },
+            "E:\\ebac3D\\Ebac3D\\UI\\NaughtyAttributes.Test.csproj": {
+              "projectPath": "E:\\ebac3D\\Ebac3D\\UI\\NaughtyAttributes.Test.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
